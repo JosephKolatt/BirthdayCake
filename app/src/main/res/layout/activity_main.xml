@@ -14,7 +14,7 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome to CS371" />
+            android:text="Happy Birthday!" />
     </LinearLayout>
 
     <LinearLayout
@@ -42,11 +42,18 @@
             android:layout_height="wrap_content"
             android:text="HOORAY!!" />
 
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frosting" />
+
         <Button
             android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="yay..." />
+
 
     </LinearLayout>
 </LinearLayout>
